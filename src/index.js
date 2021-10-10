@@ -22,8 +22,7 @@ export default class extends Controller {
     this.toggleClass(false);
   }
 
-  toggleClass(flag) {
-    this.menuTarget.style.display = flag ? '' : 'none';
-    this.menuTarget.classList.toggle('st-contextmenu__menu--visible', flag);
+  toggleClass(visible) {
+    this.menuTarget.classList.toggle('st-contextmenu--visible', visible);
   }
 }

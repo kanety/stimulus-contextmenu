@@ -33,10 +33,10 @@ Import css:
 Build html as follows:
 
 ```html
-<div class="st-contextmenu" data-controller="contextmenu">
+<div data-controller="contextmenu">
   <p>content</p>
   <p>content</p>
-  <ul class="st-contextmenu__menu" data-contextmenu-target="menu">
+  <ul class="st-contextmenu" data-contextmenu-target="menu">
     <li><a href="#">Menu1-1</a></li>
     <li><a href="#">Menu1-2</a></li>
   </ul>
@@ -46,12 +46,12 @@ Build html as follows:
 You can specify context area bound to menu:
 
 ```html
-<div class="st-contextmenu" data-controller="contextmenu">
+<div data-controller="contextmenu">
   <div data-contextmenu-target="context">
     <p>content</p>
     <p>content</p>
   </div>
-  <ul class="st-contextmenu__menu" data-contextmenu-target="menu">
+  <ul class="st-contextmenu" data-contextmenu-target="menu">
     <li><a href="#">Menu1-1</a></li>
     <li><a href="#">Menu1-2</a></li>
   </ul>
@@ -61,10 +61,10 @@ You can specify context area bound to menu:
 You can also use [@kanety/stimulus-menu](https://github.com/kanety/stimulus-menu) as menu:
 
 ```html
-<div class="st-contextmenu" data-controller="contextmenu">
+<div data-controller="contextmenu">
   <p>content</p>
   <p>content</p>
-  <div class="st-contextmenu__menu" data-contextmenu-target="menu">
+  <div class="st-contextmenu" data-contextmenu-target="menu">
     <ul class="st-menu st-menu--vertical" data-controller="menu">
       <li>
         <span class="st-menu__icon"><a href="#">Menu1</a></span>
