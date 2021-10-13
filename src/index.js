@@ -23,6 +23,10 @@ export default class extends Controller {
   }
 
   toggleClass(visible) {
-    this.menuTarget.classList.toggle('st-contextmenu--visible', visible);
+    if (visible) {
+      this.menuTarget.classList.add('st-contextmenu--visible');
+    } else {
+      this.menuTarget.classList.remove('st-contextmenu--visible');
+    }
   }
 }
