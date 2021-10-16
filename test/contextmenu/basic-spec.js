@@ -1,9 +1,3 @@
-import { Application } from '@hotwired/stimulus';
-import ContextmenuController from 'index';
-
-const application = Application.start();
-application.register('contextmenu', ContextmenuController);
-
 describe('index', () => {
   beforeEach(() => {
     document.body.innerHTML = `
