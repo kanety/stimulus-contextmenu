@@ -4,7 +4,7 @@ A stimulus controller for simple contextmenu.
 
 ## Dependencies
 
-* @hotwired/stimulus 3.0
+* @hotwired/stimulus 3.0+
 
 ## Installation
 
